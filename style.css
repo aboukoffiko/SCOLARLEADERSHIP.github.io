@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    font-family:'Advent Pro' , sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ***************** NAVABAR ***************** */
+nav{
+    overflow: hidden;
+    background-color: #EA5B0C;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    
+}
+#logo{
+    font-family: none;
+    font-weight: bold;
+    float: left;
+}
+/* ************* IMAGE PRINCIPALE *************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(img\ APP/élève-ivoirien.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+} 
+h1 {
+    font-family: 'Bebas Neue' , cursive;
+    text-align: center;
+    color: rgb(254, 130, 5);
+    font-size: 6em;
+    margin-top: 40px;
+    text-shadow: 4px 3px 6px black;
+
+}
+#premierTrait {
+    height: 5px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #00983A;
+    box-shadow: 4px 3px 6px black;
+
+}
+h3 {
+    text-align: center;
+    color: #00983A;
+    font-size: 3em;
+    text-shadow: 4px 3px 6px black;
+
+}
+/* ************* PRESENTATION ************* */
+#presentaion {
+     background-color: #d0fce1;
+     padding: 10px 0px 100px 0px;
+}
+#textIntro {
+    padding: 0px 20%;
+}
+#prestations {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 30px 10%;
+}
+.imagesprestation h4{
+    font-family: 'Bebas Neue' , cursive;
+    text-align: left;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesprestation img {
+    border-radius: 10px;
+    box-shadow: 1px 2px 42px 0px rgba(0,0,0,0.8);
+}
+.imagesprestation img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+/* ******************** INNOVATION ******************** */
+#innovation {
+    height: 1400px;
+    background-color: #6ca983;
+    padding: 1px 2%;
+}
+#innovation h2 {
+    padding-top: 60px;
+}
+#elite {
+    background: url(img\ APP/Excellence-Lycee-moderne.jpg);
+}
+#news {
+    background: url(img\ APP/mariatou.png);
+}
+#invention {
+    background: url(img\ APP/innovation.png);
+}
+#innovation li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#innovation p {
+    height: 85px;
+    width: 235px;
+    background-color: #EA5B0C;
+    float:right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
+}
+#innovation #news {
+    float: right;
+}
+#news p {
+    float: left;
+    background-color: #00983A;
+    margin-left: -180px;
+    box-shadow: #EA5B0C;
+}
+/* ************ FOOTER ************* */
+footer {
+    background-color: darkgreen;
+    color: #FFFF;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro' , 'sans-serif';
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: #d0fce1;
+}
+button:hover {
+    background-color: #EA5B0C;
+    color: #FFFF;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: azure;
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display :flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #00421a;
+}
+#icons a{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: mintcream;
+}
